@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Samcards — Consultation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>Samcards</h1>
+        <p class="tag">Business consultation & strategy</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <h2>Grow your business with expert guidance</h2>
+        <p>One-on-one consultations to refine strategy, improve customer experience, and scale faster.</p>
+        <a class="btn" href="#contact">Book a consultation</a>
+      </section>
+
+      <section class="services">
+        <h3>Services</h3>
+        <ul>
+          <li>Business strategy & planning</li>
+          <li>Customer journey optimization</li>
+          <li>Marketing & growth consultations</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="contact">
+        <h3>Contact & Booking</h3>
+        <p>Fill the form to request a consultation. We'll reply within 48 hours.</p>
+        <form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <button class="btn" type="submit">Send request</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© <span id="year"></span> Samcards — Consultation</div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
