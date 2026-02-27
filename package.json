@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "esbuild": "^0.27.3",
     "hugeicons-vue": "^0.0.1",
     "vue": "^3.4.21"
   },
