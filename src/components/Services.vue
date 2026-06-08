@@ -206,10 +206,6 @@ const products = ref([
   border-radius: 16px;
 }
 
-.service-card:hover .card-inner {
-  border-top-color: var(--primary-blue);
-}
-
 /* Icon bubble */
 .service-icon-wrap {
   display: inline-flex;
