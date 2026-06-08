@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "create-cloudflare": "^2.70.0",
     "hugeicons-vue": "^0.0.1",
     "vue": "^3.4.21"
   },
